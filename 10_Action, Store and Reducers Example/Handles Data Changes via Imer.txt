@@ -1,0 +1,11 @@
+import produce from "immer"
+let user = {
+name: "John",
+address :{
+state: "California"
+}
+}
+
+const userCopy = produce(user, draftState => {
+draftState.address.state = "New York"
+})

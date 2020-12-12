@@ -1,0 +1,13 @@
+function mapDispatchToProps(dispatch){
+return {
+loadCourses: () => {
+dispatch(loadCourses());
+},
+createCourse: (course) =>{
+dispatch(createCourse(course));
+},
+updateCourse: (course) =>{
+dispatch(createCourse(course));
+}
+}
+}

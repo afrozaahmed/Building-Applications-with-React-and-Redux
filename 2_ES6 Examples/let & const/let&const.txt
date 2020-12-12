@@ -1,0 +1,31 @@
+//var example
+var myName = "Afroz";
+console.log(myName);
+
+myName = "Manu";
+console.log(myName);
+
+
+//let example
+let myName = "Afroz";
+console.log(myName);
+
+myName = "Manu";
+console.log(myName);
+
+
+//const example
+const myName = "Afroz";
+console.log(myName);
+
+myName = "Manu";
+console.log(myName);
+
+//Difference between let and var
+function scope(){
+for(let i=1;i<=5;i++){
+  console.log("inside the loop"+" "+ i);
+}
+  console.log("outside the loop"+" "+i);
+}
+scope();

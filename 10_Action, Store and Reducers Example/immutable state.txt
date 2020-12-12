@@ -1,0 +1,19 @@
+Example of mutating state-
+
+state = {
+name: "John"
+role: "trainer"
+}
+
+state.role = "admin";
+return state
+
+
+--------------------
+
+Example of immutable state
+
+return state = {
+name: "Max"
+role: "admin"
+}

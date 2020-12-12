@@ -1,0 +1,7 @@
+function mapDispatchToProps(dispatch){
+return {
+actions: bindActionCreators(actions,dipatch)
+};
+}
+
+this.props.actions.actionName

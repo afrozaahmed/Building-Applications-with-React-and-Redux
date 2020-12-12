@@ -1,0 +1,5 @@
+const mapDispatchToProps = {
+loadCourses
+};
+
+this.props.loadCourses();

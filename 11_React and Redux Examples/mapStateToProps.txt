@@ -1,0 +1,5 @@
+function mapStateToProps(state,ownProps){
+return {authors:state.authors};
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(AuthorPage)

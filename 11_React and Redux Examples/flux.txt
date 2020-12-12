@@ -1,0 +1,11 @@
+componentWillMount(){
+AuthorStore.addChangeListener(this.onChange);
+}
+
+componentWillUnMount(){
+AuthorStore.removeChangeListener(this.onChange)
+}
+
+onChange(){
+this.setState({authors:AuthorStore.getAll()})
+}

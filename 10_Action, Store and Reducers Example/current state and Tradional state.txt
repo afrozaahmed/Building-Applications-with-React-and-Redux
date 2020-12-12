@@ -1,0 +1,18 @@
+current state - 
+
+state = {
+name: 'Sam'
+role: 'author'
+}
+
+Tradional App - Mutating state:
+
+state.role = 'admin';
+return state;
+
+Returning new Object Not Mutating state!-
+return state{
+name: 'Sam'
+role: 'admin'
+}
+

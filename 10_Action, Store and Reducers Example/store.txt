@@ -1,0 +1,13 @@
+state = {
+name: "John",
+role: "trainer",
+city: "Bangalore",
+state: "Karnataka",
+country: "India",
+isFunny: "Rarely",
+...
+}
+
+if(prevStoreState !== storeState) {
+...
+}

@@ -1,0 +1,3 @@
+rateTraining(rating) {
+return {type: RATE_TRAINING, rating: rating}
+}

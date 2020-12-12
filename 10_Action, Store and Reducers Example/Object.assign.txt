@@ -1,0 +1,12 @@
+Signature
+Object.assign(target, ...sources);
+
+Example
+let state = {
+name: "John",
+role: "trainer"
+}
+const returnedState = Object.assign({}, state, {role: "admin"});
+console.log(returnedState)
+console.log(state)
+

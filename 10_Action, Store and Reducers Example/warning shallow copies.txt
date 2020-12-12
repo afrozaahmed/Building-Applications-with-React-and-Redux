@@ -1,0 +1,14 @@
+const user = {
+name: 'Afroz',
+address: {
+state: Karnataka
+}
+}
+
+//watch out, it did not clone the nested address object!
+
+const userCopy = {...user};
+
+
+//This clones the nested address object too
+const userCopy = {...user, address: {...user.address}}

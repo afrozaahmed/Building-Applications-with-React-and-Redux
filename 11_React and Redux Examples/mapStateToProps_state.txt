@@ -1,0 +1,16 @@
+function mapStateToProps(state){
+	Return {
+		appState: state
+	};
+}
+
+then // this.props.appState
+
+
+-------------------
+
+function mapStateToProps(state){
+	Return {
+		users: state.users
+	};
+}
